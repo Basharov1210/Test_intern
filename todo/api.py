@@ -4,8 +4,8 @@ from .serializers import TodoSerializer
 
 
 class TodoViewSet(viewsets.ModelViewSet):
-    queryser = Todo.objects.all()
+    queryset = Todo.objects.all()
     permission_classes = [
         permissions.AllowAny
     ]
-    serializer_class =  TodoSerializer
+    serializer_class = TodoSerializer
