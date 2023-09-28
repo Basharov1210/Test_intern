@@ -1,0 +1,12 @@
+{% extends "main/layout.html" %}
+
+{% block title %}Главная страница{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>Главная страница</h1>
+        <p>На данном сайте вы можете перейти на страницу с информацией обо мне или же добавить какое-то дело, которое вам необходимо сделать</p>
+        <a href="{% url 'about' %}"><button  class="btn btn-warning">Обо мне</button></a>
+        <a href="{% url 'todo' %}"><button class="btn btn-warning">Список дел</button></a>
+    </div>
+{% endblock %}

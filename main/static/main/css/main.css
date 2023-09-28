@@ -1,0 +1,127 @@
+/*___________________|LAYOUT CSS|_______________________*/
+body {
+    margin: 0;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+
+main {
+  flex-grow: 1;
+}
+/*___________________|Футер|_______________________*/
+footer {
+  flex-shrink: 0;
+}
+
+footer .col-md-4 {
+
+}
+
+footer .nav {
+
+}
+
+/*___________________|Хедер|_______________________*/
+header img {
+    width: 40px;
+    float: left;
+    border-radius: 100%;
+}
+
+header .logo {
+    color: #73e1fa;
+    font-size: 30px;
+    margin-left: 5px;
+    font-weight: bold;
+    position: relative;
+    top: -2px;
+}
+
+header .nav {
+     margin-left: 50px;
+}
+
+/*___________________|Неоновая подстветка|_______________________*/
+.sign-wrap-4 .sign_word {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 50px;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #BFE2FF, 0 0 0.5em #BFE2FF, 0 0 0.1em #BFE2FF;
+}
+.sign-wrap-4 .sign_word span {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 50px;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #BFE2FF, 0 0 0.5em #BFE2FF, 0 0 0.1em #BFE2FF;
+    animation: neon-4 linear infinite 2s;
+}
+@keyframes neon-4 {
+    78% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+    79%{
+        color: #0b3960;
+    }
+    80% {
+        text-shadow: none;
+    }
+    81% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+    82% {
+        color: #0b3960;
+        text-shadow: none;
+    }
+    83% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+    92% {
+        color: #0b3960;
+        text-shadow: none;
+    }
+    92.5% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+}
+
+/*_________________________|LAYOUT CSS FINISH|_________________________________*/
+
+
+
+/*_________________________|MAIN BLOCK CONTENT CSS|____________________________*/
+
+main .features {
+    text-align: center;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main .features h1 {font-size: 50px;}
+main .features p {max-width: 400px; margin: 20px auto;}
+
+div .card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*_________________________|ABOUT CSS|____________________________*/
+
+.img-me {
+    width: 400px;
+}
+
+.col-12 {
+    text-align: center
+}
+.carousel {
+    width: 300px;
+}
