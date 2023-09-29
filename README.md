@@ -20,7 +20,7 @@
 
 **Скриншот страницы 'Список дел'**
 
-![alt-текст](https://github.com/Basharov1210/Test_intern/blob/master/readme_photos/todo.png "Страница список дел")
+![alt-текст](https://github.com/Basharov1210/Test_intern/blob/master/readme_photos/todo_page.png "Страница список дел")
 
 [home.html]: https://github.com/Basharov1210/Test_intern/blob/master/main/templates/main/home.html
 [about.html]: https://github.com/Basharov1210/Test_intern/blob/master/main/templates/main/about.html
