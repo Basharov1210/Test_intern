@@ -36,6 +36,36 @@
 
 В файле [views.py] были реазилованы GET,POST,PUT,DELETE-запросы.
 
+### Тестирование
+
+**GET-запрос**
+
+![alt-текст](https://github.com/Basharov1210/Test_intern/blob/master/readme_photos/test/GET.png "GET-запрос")
+
+**POST-запрос**
+
+Добавляем новую задачу 'Прочитать книгу' с описанием на какой странице остановились.
+![alt-текст](https://github.com/Basharov1210/Test_intern/blob/master/readme_photos/test/POST_1.png "POST-запрос")
+
+Задача успешно добавилась
+
+![alt-текст](https://github.com/Basharov1210/Test_intern/blob/master/readme_photos/test/POST_2.png "POST-запрос")
+
+**PUT-запрос**
+Перейдем по ссылке 'http://127.0.0.1:8000/todo/1' где '1' это id задачи и изменим её
+
+![alt-текст](https://github.com/Basharov1210/Test_intern/blob/master/readme_photos/test/PUT_1.png "PUT-запрос")
+
+Задача успешно изменилась
+
+![alt-текст](https://github.com/Basharov1210/Test_intern/blob/master/readme_photos/test/PUT_2.png "PUT-запрос")
+
+**DELETE-запрос**
+Удалим измененную задачу
+
+![alt-текст](https://github.com/Basharov1210/Test_intern/blob/master/readme_photos/test/DELETE.png "DELETE-запрос")
+
+Задача успешно удалилась, об этом нам говорит статус HTTP_204_NO_CONTENT.
 
 [views.py]: https://github.com/Basharov1210/Test_intern/blob/master/todo/views.py
 [сериализатор]: https://github.com/Basharov1210/Test_intern/blob/master/todo/serializers.py
