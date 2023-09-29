@@ -53,7 +53,7 @@
 
 **PUT-запрос**
 
-Перейдем по ссылке 'http://127.0.0.1:8000/todo/1' где '1' это id задачи и изменим её
+Добавим в ссылку 1 - где '1' это id задачи и изменим её
 
 ![alt-текст](https://github.com/Basharov1210/Test_intern/blob/master/readme_photos/test/PUT_1.png "PUT-запрос")
 
