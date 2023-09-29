@@ -14,5 +14,5 @@
 ##### Скриншот страницы 'Обо мне'
 
 
-[home.html]https://github.com/Basharov1210/Test_intern/blob/master/main/templates/main/home.html
-[about.html]https://github.com/Basharov1210/Test_intern/blob/master/main/templates/main/about.html
+[home.html]: https://github.com/Basharov1210/Test_intern/blob/master/main/templates/main/home.html
+[about.html]: https://github.com/Basharov1210/Test_intern/blob/master/main/templates/main/about.html
