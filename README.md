@@ -34,7 +34,7 @@
 
 Следующим шагом был создан [сериализатор] для выполнения конвертирования объектов в JSON формат.
 
-В файле [views.py] были реазиловаты GET,POST,PUT,DELETE-запросы.
+В файле [views.py] были реазилованы GET,POST,PUT,DELETE-запросы.
 
 
 [views.py]: https://github.com/Basharov1210/Test_intern/blob/master/todo/views.py
