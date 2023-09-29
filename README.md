@@ -16,8 +16,11 @@
 
 ![alt-текст](https://github.com/Basharov1210/Test_intern/blob/master/readme_photos/about_page.png "Страница обо мне")
 
+При нажатии на кнопку 'Список дел' открывается встроенная страница Django REST framework с доступом просмотра API и выполнения дальнейших манипуляций с ними, такими как: GET,POST,PUT,DELETE.
 
+**Скриншот страницы 'Список дел'**
 
+![alt-текст](https://github.com/Basharov1210/Test_intern/blob/master/readme_photos/todo.png "Страница список дел")
 
 [home.html]: https://github.com/Basharov1210/Test_intern/blob/master/main/templates/main/home.html
 [about.html]: https://github.com/Basharov1210/Test_intern/blob/master/main/templates/main/about.html
